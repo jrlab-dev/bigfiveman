@@ -55,9 +55,35 @@
     box-shadow:0 6px 24px rgba(80,90,255,.45);
   }
   .cta-btn:hover { filter:brightness(1.12); }
+  .cta-sub { color:#9aa3c7; font-size:.85rem; margin-top:12px; line-height:1.7; }
 </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ビッグファイブマンV",
+    "alternateName": "ビッグファイブマンV ～性格診断で人を動かす～",
+    "url": "https://bigfiveman.jr-genius.jp/",
+    "description": "職場の困ったあの人を、ビッグファイブ性格診断で読み解く会社員ドラマ。全話無料のWeb漫画。",
+    "inLanguage": "ja",
+    "image": "https://bigfiveman.jr-genius.jp/images/cover.webp"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "ビッグファイブマンV エピソード一覧",
+    "numberOfItems": 2,
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "第1話 手柄横取り課長", "url": "https://bigfiveman.jr-genius.jp/ep1.html" },
+      { "@type": "ListItem", "position": 2, "name": "第2話 『でも』の男", "url": "https://bigfiveman.jr-genius.jp/ep2.html" }
+    ]
+  }
+  </script>
+  <script src="manga-analytics.js" defer></script>
 </head>
-<body>
+<body data-page="manga_list">
 <div class="wrap">
   <div class="hero">
     <img src="images/cover.webp" alt="ビッグファイブマンV ～性格診断で人を動かす～" width="1672" height="941">
@@ -84,7 +110,8 @@
   </div>
 
   <div class="cta-box">
-    <a class="cta-btn" href="https://bigfive.jr-genius.jp/?from=manga_list">無料でビッグファイブ診断を受ける →</a>
+    <a class="cta-btn" href="https://bigfive.jr-genius.jp/?from=manga_list">ビッグファイブ診断をはじめる →</a>
+    <p class="cta-sub">自分も、あの人も。相性も、チームも。</p>
   </div>
 </div>
 </body>

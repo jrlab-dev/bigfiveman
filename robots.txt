@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bigfiveman.jr-genius.jp/sitemap.xml
